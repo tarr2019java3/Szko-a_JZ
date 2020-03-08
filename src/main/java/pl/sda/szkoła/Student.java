@@ -3,10 +3,12 @@ package pl.sda.szkoła;
     public class Student {
         private String name;
         private String lastname;
+        private School school;
 
-        public Student(String name, String lastname) {
+        public Student(String name, String lastname, School school) {
             this.name = name;
             this.lastname = lastname;
+            this.school = school;
         }
 
         public String getName() {

@@ -1,8 +1,11 @@
 package pl.sda.szkoła;
 
-    public class School {
+import java.util.List;
+
+public class School {
         private String name;
         private String city;
+
 
         public School(String name, String city) {
             this.name = name;
@@ -24,4 +27,5 @@ package pl.sda.szkoła;
         public void setCity(String city) {
             this.city = city;
         }
+
     }
